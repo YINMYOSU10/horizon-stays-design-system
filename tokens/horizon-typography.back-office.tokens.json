@@ -1,0 +1,98 @@
+{
+  "heading-1-font-size": {
+    "$type": "dimension",
+    "$value": "{font-size-2xl}"
+  },
+  "heading-1-line-height": {
+    "$type": "dimension",
+    "$value": "{line-height-lg}"
+  },
+  "heading-2-font-size": {
+    "$type": "dimension",
+    "$value": "{font-size-xl}"
+  },
+  "heading-2-line-height": {
+    "$type": "dimension",
+    "$value": "{line-height-lg}"
+  },
+  "heading-3-font-size": {
+    "$type": "dimension",
+    "$value": "{font-size-lg}"
+  },
+  "heading-3-line-height": {
+    "$type": "dimension",
+    "$value": "{line-height-base}"
+  },
+  "body-lg-font-size": {
+    "$type": "dimension",
+    "$value": "{font-size-md}"
+  },
+  "body-lg-line-height": {
+    "$type": "dimension",
+    "$value": "{line-height-base}"
+  },
+  "body-base-font-size": {
+    "$type": "dimension",
+    "$value": "{font-size-base}"
+  },
+  "body-base-line-height": {
+    "$type": "dimension",
+    "$value": "{line-height-sm}"
+  },
+  "body-base-medium-font-size": {
+    "$type": "dimension",
+    "$value": "{font-size-base}"
+  },
+  "body-base-medium-line-height": {
+    "$type": "dimension",
+    "$value": "{line-height-sm}"
+  },
+  "body-base-semibold-font-size": {
+    "$type": "dimension",
+    "$value": "{font-size-base}"
+  },
+  "body-base-semibold-line-height": {
+    "$type": "dimension",
+    "$value": "{line-height-sm}"
+  },
+  "body-sm-font-size": {
+    "$type": "dimension",
+    "$value": "{font-size-sm}"
+  },
+  "body-sm-line-height": {
+    "$type": "dimension",
+    "$value": "{line-height-xs}"
+  },
+  "body-sm-semibold-font-size": {
+    "$type": "dimension",
+    "$value": "{font-size-sm}"
+  },
+  "body-sm-semibold-line-height": {
+    "$type": "dimension",
+    "$value": "{line-height-xs}"
+  },
+  "label-font-size": {
+    "$type": "dimension",
+    "$value": "{font-size-sm}"
+  },
+  "label-line-height": {
+    "$type": "dimension",
+    "$value": "{line-height-xs}"
+  },
+  "helper-font-size": {
+    "$type": "dimension",
+    "$value": "{font-size-xs}"
+  },
+  "helper-line-height": {
+    "$type": "dimension",
+    "$value": "{line-height-xs}"
+  },
+  "link-font-size": {
+    "$type": "dimension",
+    "$value": "{font-size-base}"
+  },
+  "link-line-height": {
+    "$type": "dimension",
+    "$value": "{line-height-sm}"
+  }
+}

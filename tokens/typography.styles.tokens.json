@@ -1,0 +1,170 @@
+{
+  "horizon-semantic-typography-heading-1": {
+    "$type": "typography",
+    "$description": "size + leading vary by platform mode (web / mobile / back-office)",
+    "$value": {
+      "fontFamily": "{font-family-sans}",
+      "fontWeight": "Semi Bold",
+      "fontSize": "{heading-1-font-size}",
+      "lineHeight": "{heading-1-line-height}",
+      "letterSpacing": {
+        "value": 0,
+        "unit": "px"
+      }
+    }
+  },
+  "horizon-semantic-typography-heading-2": {
+    "$type": "typography",
+    "$description": "size + leading vary by platform mode (web / mobile / back-office)",
+    "$value": {
+      "fontFamily": "{font-family-sans}",
+      "fontWeight": "Semi Bold",
+      "fontSize": "{heading-2-font-size}",
+      "lineHeight": "{heading-2-line-height}",
+      "letterSpacing": {
+        "value": 0,
+        "unit": "px"
+      }
+    }
+  },
+  "horizon-semantic-typography-heading-3": {
+    "$type": "typography",
+    "$description": "size + leading vary by platform mode (web / mobile / back-office)",
+    "$value": {
+      "fontFamily": "{font-family-sans}",
+      "fontWeight": "Semi Bold",
+      "fontSize": "{heading-3-font-size}",
+      "lineHeight": "{heading-3-line-height}",
+      "letterSpacing": {
+        "value": 0,
+        "unit": "px"
+      }
+    }
+  },
+  "horizon-semantic-typography-body-lg": {
+    "$type": "typography",
+    "$description": "size + leading vary by platform mode (web / mobile / back-office)",
+    "$value": {
+      "fontFamily": "{font-family-sans}",
+      "fontWeight": "Regular",
+      "fontSize": "{body-lg-font-size}",
+      "lineHeight": "{body-lg-line-height}",
+      "letterSpacing": {
+        "value": 0,
+        "unit": "px"
+      }
+    }
+  },
+  "horizon-semantic-typography-body-base": {
+    "$type": "typography",
+    "$description": "size + leading vary by platform mode (web / mobile / back-office)",
+    "$value": {
+      "fontFamily": "{font-family-sans}",
+      "fontWeight": "Regular",
+      "fontSize": "{body-base-font-size}",
+      "lineHeight": "{body-base-line-height}",
+      "letterSpacing": {
+        "value": 0,
+        "unit": "px"
+      }
+    }
+  },
+  "horizon-semantic-typography-body-base-medium": {
+    "$type": "typography",
+    "$description": "size + leading vary by platform mode (web / mobile / back-office)",
+    "$value": {
+      "fontFamily": "{font-family-sans}",
+      "fontWeight": "Medium",
+      "fontSize": "{body-base-medium-font-size}",
+      "lineHeight": "{body-base-medium-line-height}",
+      "letterSpacing": {
+        "value": 0,
+        "unit": "px"
+      }
+    }
+  },
+  "horizon-semantic-typography-body-base-semibold": {
+    "$type": "typography",
+    "$description": "size + leading vary by platform mode (web / mobile / back-office)",
+    "$value": {
+      "fontFamily": "{font-family-sans}",
+      "fontWeight": "Semi Bold",
+      "fontSize": "{body-base-semibold-font-size}",
+      "lineHeight": "{body-base-semibold-line-height}",
+      "letterSpacing": {
+        "value": 0,
+        "unit": "px"
+      }
+    }
+  },
+  "horizon-semantic-typography-body-sm": {
+    "$type": "typography",
+    "$description": "size + leading vary by platform mode (web / mobile / back-office)",
+    "$value": {
+      "fontFamily": "{font-family-sans}",
+      "fontWeight": "Regular",
+      "fontSize": "{body-sm-font-size}",
+      "lineHeight": "{body-sm-line-height}",
+      "letterSpacing": {
+        "value": 0,
+        "unit": "px"
+      }
+    }
+  },
+  "horizon-semantic-typography-body-sm-semibold": {
+    "$type": "typography",
+    "$description": "size + leading vary by platform mode (web / mobile / back-office)",
+    "$value": {
+      "fontFamily": "{font-family-sans}",
+      "fontWeight": "Semi Bold",
+      "fontSize": "{body-sm-semibold-font-size}",
+      "lineHeight": "{body-sm-semibold-line-height}",
+      "letterSpacing": {
+        "value": 0,
+        "unit": "px"
+      }
+    }
+  },
+  "horizon-semantic-typography-label": {
+    "$type": "typography",
+    "$description": "size + leading vary by platform mode (web / mobile / back-office)",
+    "$value": {
+      "fontFamily": "{font-family-sans}",
+      "fontWeight": "Medium",
+      "fontSize": "{label-font-size}",
+      "lineHeight": "{label-line-height}",
+      "letterSpacing": {
+        "value": 0,
+        "unit": "px"
+      }
+    }
+  },
+  "horizon-semantic-typography-helper": {
+    "$type": "typography",
+    "$description": "size + leading vary by platform mode (web / mobile / back-office)",
+    "$value": {
+      "fontFamily": "{font-family-sans}",
+      "fontWeight": "Regular",
+      "fontSize": "{helper-font-size}",
+      "lineHeight": "{helper-line-height}",
+      "letterSpacing": {
+        "value": 0,
+        "unit": "px"
+      }
+    }
+  },
+  "horizon-semantic-typography-link": {
+    "$type": "typography",
+    "$description": "size + leading vary by platform mode (web / mobile / back-office)",
+    "$value": {
+      "fontFamily": "{font-family-sans}",
+      "fontWeight": "Medium",
+      "fontSize": "{link-font-size}",
+      "lineHeight": "{link-line-height}",
+      "letterSpacing": {
+        "value": 0,
+        "unit": "px"
+      }
+    }
+  }
+}

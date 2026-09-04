@@ -1,0 +1,182 @@
+{
+  "horizon-semantic-elevation-raised": {
+    "$type": "shadow",
+    "$description": "core level-1 — colour is neutral/1000 at low alpha",
+    "$value": [
+      {
+        "color": {
+          "colorSpace": "srgb",
+          "components": [
+            0.054901961237192154,
+            0.08235294371843338,
+            0.08627451211214066
+          ],
+          "alpha": 0.05999999865889549
+        },
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 1,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 2,
+          "unit": "px"
+        },
+        "spread": {
+          "value": 0,
+          "unit": "px"
+        }
+      },
+      {
+        "color": {
+          "colorSpace": "srgb",
+          "components": [
+            0.054901961237192154,
+            0.08235294371843338,
+            0.08627451211214066
+          ],
+          "alpha": 0.03999999910593033
+        },
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 1,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 3,
+          "unit": "px"
+        },
+        "spread": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    ]
+  },
+  "horizon-semantic-elevation-overlay": {
+    "$type": "shadow",
+    "$description": "core level-2 — colour is neutral/1000 at low alpha",
+    "$value": [
+      {
+        "color": {
+          "colorSpace": "srgb",
+          "components": [
+            0.054901961237192154,
+            0.08235294371843338,
+            0.08627451211214066
+          ],
+          "alpha": 0.07999999821186066
+        },
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 4,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 8,
+          "unit": "px"
+        },
+        "spread": {
+          "value": -2,
+          "unit": "px"
+        }
+      },
+      {
+        "color": {
+          "colorSpace": "srgb",
+          "components": [
+            0.054901961237192154,
+            0.08235294371843338,
+            0.08627451211214066
+          ],
+          "alpha": 0.03999999910593033
+        },
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 2,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 4,
+          "unit": "px"
+        },
+        "spread": {
+          "value": -2,
+          "unit": "px"
+        }
+      }
+    ]
+  },
+  "horizon-semantic-elevation-modal": {
+    "$type": "shadow",
+    "$description": "core level-3 — colour is neutral/1000 at low alpha",
+    "$value": [
+      {
+        "color": {
+          "colorSpace": "srgb",
+          "components": [
+            0.054901961237192154,
+            0.08235294371843338,
+            0.08627451211214066
+          ],
+          "alpha": 0.10000000149011612
+        },
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 12,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 24,
+          "unit": "px"
+        },
+        "spread": {
+          "value": -4,
+          "unit": "px"
+        }
+      },
+      {
+        "color": {
+          "colorSpace": "srgb",
+          "components": [
+            0.054901961237192154,
+            0.08235294371843338,
+            0.08627451211214066
+          ],
+          "alpha": 0.05999999865889549
+        },
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 4,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 8,
+          "unit": "px"
+        },
+        "spread": {
+          "value": -4,
+          "unit": "px"
+        }
+      }
+    ]
+  }
+}

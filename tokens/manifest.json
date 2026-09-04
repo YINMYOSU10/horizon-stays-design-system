@@ -1,0 +1,40 @@
+{
+  "name": "Design Tokens",
+  "collections": {
+    "horizon-core": {
+      "modes": {
+        "value": [
+          "horizon-core.value.tokens.json"
+        ]
+      }
+    },
+    "horizon-semantic": {
+      "modes": {
+        "on-light": [
+          "horizon-semantic.on-light.tokens.json"
+        ]
+      }
+    },
+    "horizon-typography": {
+      "modes": {
+        "web": [
+          "horizon-typography.web.tokens.json"
+        ],
+        "mobile": [
+          "horizon-typography.mobile.tokens.json"
+        ],
+        "back-office": [
+          "horizon-typography.back-office.tokens.json"
+        ]
+      }
+    }
+  },
+  "styles": {
+    "typography": [
+      "typography.styles.tokens.json"
+    ],
+    "effects": [
+      "effects.styles.tokens.json"
+    ]
+  }
+}
