@@ -1,0 +1,30 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+[data-typography-mode="mobile"] {
+  --heading-1-font-size: 24px;
+  --heading-1-line-height: 32px;
+  --heading-2-font-size: 22px;
+  --heading-2-line-height: 32px;
+  --heading-3-font-size: 16px;
+  --heading-3-line-height: 24px;
+  --body-lg-font-size: 16px;
+  --body-lg-line-height: 24px;
+  --body-base-font-size: 14px;
+  --body-base-line-height: 24px;
+  --body-base-medium-font-size: 14px;
+  --body-base-medium-line-height: 24px;
+  --body-base-semibold-font-size: 14px;
+  --body-base-semibold-line-height: 24px;
+  --body-sm-font-size: 12px;
+  --body-sm-line-height: 18px;
+  --body-sm-semibold-font-size: 12px;
+  --body-sm-semibold-line-height: 18px;
+  --label-font-size: 12px;
+  --label-line-height: 16px;
+  --helper-font-size: 10px;
+  --helper-line-height: 16px;
+  --link-font-size: 14px;
+  --link-line-height: 24px;
+}
