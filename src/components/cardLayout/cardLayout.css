@@ -1,0 +1,80 @@
+/* CardLayout — Figma 220:4971. Orientation: Vertical | Horizontal | Center. */
+
+.cardLayout {
+  --cardLayout-height-vertical: 274px;   /* unbound, see docs/card-unbound-values.md */
+  --cardLayout-slot-height: 37px;
+  --cardLayout-slot2-height: 42px;
+  --cardLayout-column-width: 134px;
+  --cardLayout-stack-gap: 10px;          /* unbound: no 10px step on the spacing scale */
+
+  --cardLayout-media-width: 259px;    /* the CardImage instance override in the
+                                         card; the component set's own default
+                                         is 256x168. Unbound — no size tokens. */
+  --cardLayout-media-height: 124px;
+  --cardLayout-media-square: 104px;
+
+  display: flex;
+  gap: var(--spacing-gap-sm);
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.cardLayout * { box-sizing: border-box; }
+
+.cardLayout[data-orientation="Vertical"] .cardImage,
+.cardLayout[data-orientation="Center"] .cardImage {
+  --cardImage-w: var(--cardLayout-media-width);
+  --cardImage-h: var(--cardLayout-media-height);
+}
+
+.cardLayout[data-orientation="Horizontal"] .cardImage {
+  --cardImage-w: var(--cardLayout-media-square);
+  --cardImage-h: var(--cardLayout-media-square);
+}
+
+.cardLayout[data-orientation="Vertical"] {
+  flex-direction: column;
+  align-items: flex-start;
+  height: var(--cardLayout-height-vertical);
+}
+
+.cardLayout[data-orientation="Center"] {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardLayout[data-orientation="Horizontal"] {
+  align-items: flex-start;
+}
+
+.cardLayout__slot {
+  position: relative;
+  width: 100%;
+  height: var(--cardLayout-slot-height);
+  flex-shrink: 0;
+}
+
+.cardLayout__stack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--cardLayout-stack-gap);
+  flex-shrink: 0;
+}
+
+.cardLayout[data-orientation="Horizontal"] .cardLayout__stack {
+  width: var(--cardLayout-column-width);
+}
+
+.cardLayout__slot2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: var(--cardLayout-slot2-height);
+  padding-inline: var(--spacing-padding-lg);
+  flex-shrink: 0;
+  width: 100%;
+}

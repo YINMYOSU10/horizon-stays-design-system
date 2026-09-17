@@ -1,0 +1,205 @@
+/* Chrome for the token gallery itself. Deliberately uses the design system's
+   own tokens where it can, so the docs eat their own cooking. */
+
+.tg {
+  font-family: var(--font-family-sans), system-ui, -apple-system, sans-serif;
+  color: var(--color-text-neutral-primary);
+  background: var(--color-bg-surface-primary);
+  padding: var(--spacing-layout-page-inline, 24px);
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+.tg h1 {
+  font-size: var(--heading-1-font-size);
+  line-height: var(--heading-1-line-height);
+  font-weight: var(--font-weight-semibold, 600);
+  margin: 0 0 var(--spacing-gap-sm) 0;
+}
+
+.tg h2 {
+  font-size: var(--heading-3-font-size);
+  line-height: var(--heading-3-line-height);
+  font-weight: var(--font-weight-semibold, 600);
+  margin: var(--spacing-margin-xl) 0 var(--spacing-gap-md) 0;
+  padding-bottom: var(--spacing-gap-xs);
+  border-bottom: var(--border-width-divider) solid var(--color-border-neutral-default);
+}
+
+.tg .tg-lede {
+  font-size: var(--body-lg-font-size);
+  line-height: var(--body-lg-line-height);
+  color: var(--color-text-neutral-secondary);
+  margin: 0 0 var(--spacing-margin-lg) 0;
+  max-width: 68ch;
+}
+
+.tg-count {
+  display: inline-block;
+  font-size: var(--body-sm-font-size);
+  line-height: var(--body-sm-line-height);
+  color: var(--color-text-neutral-tertiary);
+  background: var(--color-bg-surface-secondary);
+  border: var(--border-width-control) solid var(--color-border-neutral-subtle);
+  border-radius: var(--border-radius-pill);
+  padding: 2px 10px;
+  margin-left: var(--spacing-gap-sm);
+  vertical-align: middle;
+}
+
+/* --- swatch grid --- */
+.tg-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: var(--spacing-gap-md);
+}
+
+.tg-swatch {
+  border: var(--border-width-control) solid var(--color-border-neutral-subtle);
+  border-radius: var(--border-radius-surface);
+  overflow: hidden;
+  background: var(--color-bg-surface-primary);
+}
+
+.tg-swatch-chip {
+  height: 64px;
+  /* checkerboard shows through anything with alpha */
+  background-image: linear-gradient(45deg, #e8eded 25%, transparent 25%),
+    linear-gradient(-45deg, #e8eded 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #e8eded 75%),
+    linear-gradient(-45deg, transparent 75%, #e8eded 75%);
+  background-size: 12px 12px;
+  background-position: 0 0, 0 6px, 6px -6px, -6px 0;
+  position: relative;
+}
+
+.tg-swatch-chip::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--tg-chip);
+  border-bottom: var(--border-width-control) solid var(--color-border-neutral-subtle);
+}
+
+.tg-swatch-meta {
+  padding: var(--spacing-padding-sm) var(--spacing-padding-md) var(--spacing-padding-md);
+}
+
+.tg-name {
+  display: block;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 11px;
+  line-height: 16px;
+  color: var(--color-text-neutral-primary);
+  word-break: break-all;
+}
+
+.tg-value {
+  display: block;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 11px;
+  line-height: 16px;
+  color: var(--color-text-neutral-tertiary);
+  margin-top: 2px;
+  word-break: break-all;
+}
+
+/* --- ramps --- */
+.tg-ramp {
+  display: flex;
+  border-radius: var(--border-radius-surface);
+  overflow: hidden;
+  border: var(--border-width-control) solid var(--color-border-neutral-subtle);
+  margin-bottom: var(--spacing-gap-md);
+}
+
+.tg-ramp-step {
+  flex: 1 1 0;
+  min-width: 0;
+  padding: var(--spacing-padding-md) var(--spacing-padding-sm);
+  min-height: 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: var(--tg-chip);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.tg-ramp-label { font-weight: 600; }
+.tg-ramp-step span { display: block; word-break: break-all; }
+
+/* Steps whose colour cannot reach AA against black or white get their labels
+   set on a backing chip instead. */
+.tg-ramp-step.is-tight span {
+  display: inline-block;
+  background: var(--tg-ink-backing);
+  border-radius: 2px;
+  padding: 0 3px;
+  margin-left: -3px;
+}
+
+/* --- rows (spacing, radius, type) --- */
+.tg-rows { display: flex; flex-direction: column; gap: var(--spacing-gap-sm); }
+
+.tg-row {
+  display: grid;
+  grid-template-columns: minmax(200px, 260px) 90px 1fr;
+  gap: var(--spacing-gap-md);
+  align-items: center;
+  padding: var(--spacing-padding-sm) 0;
+  border-bottom: var(--border-width-divider) solid var(--color-border-neutral-subtle);
+}
+
+.tg-bar {
+  height: 20px;
+  background: var(--color-bg-primary-default, var(--color-teal-500));
+  border-radius: var(--border-radius-xs);
+}
+
+.tg-box {
+  width: 88px;
+  height: 56px;
+  background: var(--color-bg-surface-secondary);
+  border: var(--border-width-control) solid var(--color-border-primary-default);
+}
+
+.tg-elev {
+  background: var(--color-bg-surface-primary);
+  border-radius: var(--border-radius-surface);
+  padding: var(--spacing-padding-xl);
+  min-height: 72px;
+}
+
+.tg-note {
+  font-size: var(--body-sm-font-size);
+  line-height: var(--body-sm-line-height);
+  color: var(--color-text-warning-on-light);
+  background: var(--color-bg-warning-subtle, #fffaeb);
+  border: var(--border-width-control) solid var(--color-border-warning-light);
+  border-radius: var(--border-radius-input);
+  padding: var(--spacing-padding-md);
+  margin: var(--spacing-margin-md) 0;
+  max-width: 80ch;
+}
+
+.tg-modes { display: flex; gap: var(--spacing-gap-sm); margin-bottom: var(--spacing-margin-md); }
+
+.tg-mode-btn {
+  font: inherit;
+  font-size: var(--body-sm-font-size);
+  padding: var(--spacing-padding-sm) var(--spacing-padding-lg);
+  border-radius: var(--border-radius-control);
+  border: var(--border-width-control) solid var(--color-border-neutral-default);
+  background: var(--color-bg-surface-primary);
+  color: var(--color-text-neutral-secondary);
+  cursor: pointer;
+}
+
+.tg-mode-btn[aria-pressed="true"] {
+  background: var(--color-bg-primary-default, var(--color-teal-500));
+  border-color: var(--color-border-primary-strong);
+  color: var(--color-text-primary-foreground);
+  font-weight: 600;
+}

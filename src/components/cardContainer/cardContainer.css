@@ -1,0 +1,33 @@
+/* CardContainer — Figma 215:4091. State: Default | Hover.
+   "Use as a container to place card's subcomponents. Do not use this for other
+   components." (component description in Figma) */
+
+.cardContainer {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  overflow: hidden;
+  position: relative;
+  padding-inline: var(--spacing-padding-lg);
+  padding-block: var(--spacing-padding-md);
+  border-radius: var(--border-radius-surface);
+  background: var(--color-bg-surface-primary);
+  box-shadow: none;
+  transition: box-shadow 120ms ease-out;
+}
+
+/* Hover raises the card onto elevation level 2. Real hover and keyboard focus
+   both trigger it; `state` forces it for stories and QA. */
+.cardContainer:hover,
+.cardContainer:focus-within,
+.cardContainer[data-state="Hover"] {
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--horizon-semantic-elevation-overlay);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cardContainer { transition: none; }
+}
+
+.cardContainer * { box-sizing: border-box; }

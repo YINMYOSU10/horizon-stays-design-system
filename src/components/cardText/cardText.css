@@ -1,0 +1,174 @@
+/* CardText — Figma 224:5498. Three types: textavailable, textlabel, texterror. */
+
+.cardText {
+  box-sizing: border-box;
+  --cardText-width-available: 259px;  /* unbound, see docs/card-unbound-values.md */
+  --cardText-width-inner: 246px;
+  --cardText-width-label: 71px;
+  --cardText-gap-error: 10px;         /* unbound: no 10px step on the spacing scale */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.cardText[data-type="textavailable"] {
+  gap: var(--spacing-gap-md);
+  overflow: hidden;
+  width: var(--cardText-width-available);
+}
+
+.cardText[data-type="textlabel"] {
+  gap: var(--spacing-gap-none);
+  width: var(--cardText-width-label);
+}
+
+.cardText[data-type="texterror"] {
+  gap: var(--cardText-gap-error);
+  width: var(--cardText-width-inner);
+}
+
+.cardText--center { align-items: center; }
+.cardText--center .cardText__heading { text-align: center; }
+
+/* --- textavailable --- */
+.cardText__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-gap-none);
+  width: 100%;
+  word-break: break-word;
+}
+
+.cardText__title {
+  margin: 0;
+  width: 100%;
+  font-family: var(--font-family-sans), system-ui, sans-serif;
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--body-base-semibold-font-size);
+  line-height: var(--body-base-semibold-line-height);
+  color: var(--color-text-neutral-primary);
+}
+
+.cardText__description {
+  margin: 0;
+  width: 100%;
+  font-family: var(--font-family-sans), system-ui, sans-serif;
+  font-weight: var(--font-weight-regular);
+  font-size: var(--body-sm-font-size);
+  line-height: var(--body-sm-line-height);
+  color: var(--color-text-neutral-tertiary);
+}
+
+.cardText__metadata {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-gap-sm);
+  width: var(--cardText-width-inner);
+}
+
+.cardText__review,
+.cardText__cost {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-gap-xs);
+  width: 100%;
+  white-space: nowrap;
+  word-break: break-word;
+}
+
+.cardText__rating {
+  margin: 0;
+  font-family: var(--font-family-sans), system-ui, sans-serif;
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--body-sm-semibold-font-size);
+  line-height: var(--body-sm-semibold-line-height);
+  color: var(--color-text-update-default);
+}
+
+/* The design leaves these three unbound — raw Inter, line-height:normal, via
+   the Figma styles `small` and `Body/Semibold`. Bound to the nearest semantic
+   token here and raised as a gap rather than guessed at. */
+.cardText__reviewCount,
+.cardText__nightCount {
+  margin: 0;
+  font-family: var(--font-family-sans), system-ui, sans-serif;
+  font-weight: var(--font-weight-regular);
+  font-size: var(--body-sm-font-size);
+  line-height: var(--body-sm-line-height);
+  color: var(--color-text-neutral-tertiary);
+}
+
+.cardText__price {
+  margin: 0;
+  font-family: var(--font-family-sans), system-ui, sans-serif;
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--body-base-semibold-font-size);
+  line-height: var(--body-base-semibold-line-height);
+  color: var(--color-text-neutral-primary);
+  white-space: nowrap;
+}
+
+.cardText__link {
+  display: flex;
+  align-items: center;
+  padding: var(--spacing-padding-none);
+  margin-inline-start: auto;
+}
+
+/* --- textlabel --- */
+.cardText__label {
+  margin: 0;
+  width: 100%;
+  font-family: var(--font-family-sans), system-ui, sans-serif;
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--body-sm-semibold-font-size);
+  line-height: var(--body-sm-semibold-line-height);
+  color: var(--color-text-neutral-tertiary);
+}
+
+.cardText__value {
+  margin: 0;
+  width: 100%;
+  font-family: var(--font-family-sans), system-ui, sans-serif;
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--heading-1-font-size);
+  line-height: var(--heading-1-line-height);
+  color: var(--color-text-neutral-primary);
+}
+
+.cardText__caption {
+  margin: 0;
+  width: 100%;
+  font-family: var(--font-family-sans), system-ui, sans-serif;
+  font-weight: var(--font-weight-regular);
+  font-size: var(--body-sm-font-size);
+  line-height: var(--body-sm-line-height);
+  color: var(--color-text-neutral-tertiary);
+}
+
+/* --- texterror --- */
+.cardText__errorMessage {
+  margin: 0;
+  width: 100%;
+  font-family: var(--font-family-sans), system-ui, sans-serif;
+  font-weight: var(--font-weight-regular);
+  font-size: var(--body-sm-font-size);
+  line-height: var(--body-sm-line-height);
+  color: var(--color-text-negative-default);
+}
+
+.cardText__errorValue {
+  margin: 0;
+  width: 100%;
+  font-family: var(--font-family-sans), system-ui, sans-serif;
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--body-lg-font-size);
+  line-height: var(--body-lg-line-height);
+  color: var(--color-text-neutral-tertiary);
+}
+
+.cardText * { box-sizing: border-box; }

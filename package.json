@@ -5,13 +5,30 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-tokens": "node build-tokens.js"
+    "build-tokens": "node build-tokens.js",
+    "storybook": "npm run build-tokens && storybook dev -p 6006",
+    "build-storybook": "npm run build-tokens && storybook build",
+    "lint": "tsc --noEmit",
+    "build:tokens": "node build-tokens.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "style-dictionary": "^5.5.2"
+    "@fontsource/inter": "^5.3.0",
+    "@storybook/html-vite": "^10.6.0",
+    "@storybook/react-vite": "^10.6.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "storybook": "^10.6.0",
+    "style-dictionary": "^5.5.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
   }
 }

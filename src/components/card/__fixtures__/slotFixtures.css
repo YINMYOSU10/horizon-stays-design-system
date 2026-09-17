@@ -1,0 +1,61 @@
+/* Styling for the story stand-ins only. See slotFixtures.tsx — these duplicate
+   the look of Badge / IconButton / Link because those components do not exist
+   yet. Delete this file when they do. */
+
+.fixtureBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  padding-inline: var(--spacing-padding-sm);
+  padding-block: var(--spacing-gap-xs);
+  border-radius: var(--border-radius-control);
+  /* The card's badge is Theme=Info, Type=Fill (233:3790). Figma binds it to
+     `bg-info-light` while painting `text-info-foreground` (white) on top — a
+     pale-tint background with the white text meant for the strong fill, which
+     renders unreadable. Every other theme pairs fill as default+foreground and
+     two-tone as light+on-light, so the Fill badge is bound to `bg-info-default`
+     here. See docs/card-design-gaps.md; the real fix is in Figma. */
+  background: var(--color-bg-info-default);
+  color: var(--color-text-info-foreground);
+  font-family: var(--font-family-sans), system-ui, sans-serif;
+  font-weight: var(--font-weight-medium);
+  font-size: var(--helper-font-size);
+  line-height: var(--label-line-height);
+  white-space: nowrap;
+}
+
+.fixtureIconButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: var(--spacing-padding-none);
+  border: var(--border-width-control) solid var(--color-border-neutral-default);
+  border-radius: var(--border-radius-pill);
+  background: var(--color-bg-surface-primary);
+  cursor: pointer;
+}
+
+.fixtureIconButton:focus-visible {
+  outline: var(--border-width-focused) solid var(--color-border-focused);
+  outline-offset: 2px;
+}
+
+.fixtureLink {
+  font-family: var(--font-family-sans), system-ui, sans-serif;
+  font-weight: var(--font-weight-medium);
+  font-size: var(--helper-font-size);
+  line-height: var(--label-line-height);
+  color: var(--color-text-info-default);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.fixtureLink:hover { text-decoration: underline; }
+
+.fixtureLink:focus-visible {
+  outline: var(--border-width-focused) solid var(--color-border-focused);
+  outline-offset: 2px;
+}
