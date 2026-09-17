@@ -1,181 +1,79 @@
 {
-  "horizon-semantic-elevation-raised": {
+  "horizon-elevation-level-1": {
     "$type": "shadow",
-    "$description": "core level-1 — colour is neutral/1000 at low alpha",
+    "$description": "key + ambient layers bound to horizon-core/elevation/level-1",
     "$value": [
       {
-        "color": {
-          "colorSpace": "srgb",
-          "components": [
-            0.054901961237192154,
-            0.08235294371843338,
-            0.08627451211214066
-          ],
-          "alpha": 0.05999999865889549
-        },
+        "color": "{elevation-level-1-key-color}",
         "offsetX": {
           "value": 0,
           "unit": "px"
         },
-        "offsetY": {
-          "value": 1,
-          "unit": "px"
-        },
-        "blur": {
-          "value": 2,
-          "unit": "px"
-        },
-        "spread": {
-          "value": 0,
-          "unit": "px"
-        }
+        "offsetY": "{elevation-level-1-key-offset-y}",
+        "blur": "{elevation-level-1-key-blur}",
+        "spread": "{elevation-level-1-key-spread}"
       },
       {
-        "color": {
-          "colorSpace": "srgb",
-          "components": [
-            0.054901961237192154,
-            0.08235294371843338,
-            0.08627451211214066
-          ],
-          "alpha": 0.03999999910593033
-        },
+        "color": "{elevation-level-1-ambient-color}",
         "offsetX": {
           "value": 0,
           "unit": "px"
         },
-        "offsetY": {
-          "value": 1,
-          "unit": "px"
-        },
-        "blur": {
-          "value": 3,
-          "unit": "px"
-        },
-        "spread": {
-          "value": 0,
-          "unit": "px"
-        }
+        "offsetY": "{elevation-level-1-ambient-offset-y}",
+        "blur": "{elevation-level-1-ambient-blur}",
+        "spread": "{elevation-level-1-ambient-spread}"
       }
     ]
   },
-  "horizon-semantic-elevation-overlay": {
+  "horizon-elevation-level-2": {
     "$type": "shadow",
-    "$description": "core level-2 — colour is neutral/1000 at low alpha",
+    "$description": "key + ambient layers bound to horizon-core/elevation/level-2",
     "$value": [
       {
-        "color": {
-          "colorSpace": "srgb",
-          "components": [
-            0.054901961237192154,
-            0.08235294371843338,
-            0.08627451211214066
-          ],
-          "alpha": 0.07999999821186066
-        },
+        "color": "{elevation-level-2-key-color}",
         "offsetX": {
           "value": 0,
           "unit": "px"
         },
-        "offsetY": {
-          "value": 4,
-          "unit": "px"
-        },
-        "blur": {
-          "value": 8,
-          "unit": "px"
-        },
-        "spread": {
-          "value": -2,
-          "unit": "px"
-        }
+        "offsetY": "{elevation-level-2-key-offset-y}",
+        "blur": "{elevation-level-2-key-blur}",
+        "spread": "{elevation-level-2-key-spread}"
       },
       {
-        "color": {
-          "colorSpace": "srgb",
-          "components": [
-            0.054901961237192154,
-            0.08235294371843338,
-            0.08627451211214066
-          ],
-          "alpha": 0.03999999910593033
-        },
+        "color": "{elevation-level-2-ambient-color}",
         "offsetX": {
           "value": 0,
           "unit": "px"
         },
-        "offsetY": {
-          "value": 2,
-          "unit": "px"
-        },
-        "blur": {
-          "value": 4,
-          "unit": "px"
-        },
-        "spread": {
-          "value": -2,
-          "unit": "px"
-        }
+        "offsetY": "{elevation-level-2-ambient-offset-y}",
+        "blur": "{elevation-level-2-ambient-blur}",
+        "spread": "{elevation-level-2-ambient-spread}"
       }
     ]
   },
-  "horizon-semantic-elevation-modal": {
+  "horizon-elevation-level-3": {
     "$type": "shadow",
-    "$description": "core level-3 — colour is neutral/1000 at low alpha",
+    "$description": "key + ambient layers bound to horizon-core/elevation/level-3",
     "$value": [
       {
-        "color": {
-          "colorSpace": "srgb",
-          "components": [
-            0.054901961237192154,
-            0.08235294371843338,
-            0.08627451211214066
-          ],
-          "alpha": 0.10000000149011612
-        },
+        "color": "{elevation-level-3-key-color}",
         "offsetX": {
           "value": 0,
           "unit": "px"
         },
-        "offsetY": {
-          "value": 12,
-          "unit": "px"
-        },
-        "blur": {
-          "value": 24,
-          "unit": "px"
-        },
-        "spread": {
-          "value": -4,
-          "unit": "px"
-        }
+        "offsetY": "{elevation-level-3-key-offset-y}",
+        "blur": "{elevation-level-3-key-blur}",
+        "spread": "{elevation-level-3-key-spread}"
       },
       {
-        "color": {
-          "colorSpace": "srgb",
-          "components": [
-            0.054901961237192154,
-            0.08235294371843338,
-            0.08627451211214066
-          ],
-          "alpha": 0.05999999865889549
-        },
+        "color": "{elevation-level-3-ambient-color}",
         "offsetX": {
           "value": 0,
           "unit": "px"
         },
-        "offsetY": {
-          "value": 4,
-          "unit": "px"
-        },
-        "blur": {
-          "value": 8,
-          "unit": "px"
-        },
-        "spread": {
-          "value": -4,
-          "unit": "px"
-        }
+        "offsetY": "{elevation-level-3-ambient-offset-y}",
+        "blur": "{elevation-level-3-ambient-blur}",
+        "spread": "{elevation-level-3-ambient-spread}"
       }
     ]
   }

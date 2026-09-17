@@ -46,7 +46,7 @@
     "$description": "size + leading vary by platform mode (web / mobile / back-office)",
     "$value": {
       "fontFamily": "{font-family-sans}",
-      "fontWeight": "Regular",
+      "fontWeight": "Semi Bold",
       "fontSize": "{body-lg-font-size}",
       "lineHeight": "{body-lg-line-height}",
       "letterSpacing": {
@@ -139,6 +139,20 @@
       }
     }
   },
+  "horizon-semantic-typography-badge": {
+    "$type": "typography",
+    "$description": "size + leading vary by platform mode (web / mobile / back-office)",
+    "$value": {
+      "fontFamily": "{font-family-sans}",
+      "fontWeight": "Medium",
+      "fontSize": "{helper-font-size}",
+      "lineHeight": "{label-line-height}",
+      "letterSpacing": {
+        "value": 0,
+        "unit": "px"
+      }
+    }
+  },
   "horizon-semantic-typography-helper": {
     "$type": "typography",
     "$description": "size + leading vary by platform mode (web / mobile / back-office)",
@@ -161,6 +175,20 @@
       "fontWeight": "Medium",
       "fontSize": "{link-font-size}",
       "lineHeight": "{link-line-height}",
+      "letterSpacing": {
+        "value": 0,
+        "unit": "px"
+      }
+    }
+  },
+  "horizon-semantic-typography-logo": {
+    "$type": "typography",
+    "$description": "Wordmark. 18 / auto / Semi Bold. Fixed across platforms — does not follow the web/mobile/back-office modes.",
+    "$value": {
+      "fontFamily": "{font-family-sans}",
+      "fontWeight": "Semi Bold",
+      "fontSize": "{font-size-logo}",
+      "lineHeight": 0,
       "letterSpacing": {
         "value": 0,
         "unit": "px"

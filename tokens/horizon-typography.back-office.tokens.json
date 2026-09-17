@@ -37,7 +37,7 @@
   },
   "body-base-line-height": {
     "$type": "dimension",
-    "$value": "{line-height-sm}"
+    "$value": "{line-height-md}"
   },
   "body-base-medium-font-size": {
     "$type": "dimension",
@@ -45,7 +45,7 @@
   },
   "body-base-medium-line-height": {
     "$type": "dimension",
-    "$value": "{line-height-sm}"
+    "$value": "{line-height-md}"
   },
   "body-base-semibold-font-size": {
     "$type": "dimension",
@@ -53,7 +53,7 @@
   },
   "body-base-semibold-line-height": {
     "$type": "dimension",
-    "$value": "{line-height-sm}"
+    "$value": "{line-height-md}"
   },
   "body-sm-font-size": {
     "$type": "dimension",
@@ -68,6 +68,14 @@
     "$value": "{font-size-sm}"
   },
   "body-sm-semibold-line-height": {
+    "$type": "dimension",
+    "$value": "{line-height-xs}"
+  },
+  "badge-font-size": {
+    "$type": "dimension",
+    "$value": "{font-size-xs}"
+  },
+  "badge-line-height": {
     "$type": "dimension",
     "$value": "{line-height-xs}"
   },
@@ -93,6 +101,18 @@
   },
   "link-line-height": {
     "$type": "dimension",
-    "$value": "{line-height-sm}"
+    "$value": "{line-height-md}"
+  },
+  "logo-font-size": {
+    "$type": "dimension",
+    "$value": "{font-size-logo}"
+  },
+  "logo-font-weight": {
+    "$type": "fontWeight",
+    "$value": "{font-weight-semibold}"
+  },
+  "logo-line-height": {
+    "$type": "dimension",
+    "$value": "{line-height-auto}"
   }
 }
