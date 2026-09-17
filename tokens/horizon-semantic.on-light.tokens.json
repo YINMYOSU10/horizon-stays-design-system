@@ -739,50 +739,6 @@
     "$type": "dimension",
     "$value": "{spacing-md}"
   },
-  "border-radius-none": {
-    "$type": "dimension",
-    "$value": "{border-radius-none}"
-  },
-  "border-radius-xs": {
-    "$type": "dimension",
-    "$value": "{border-radius-xs}"
-  },
-  "border-radius-sm": {
-    "$type": "dimension",
-    "$value": "{border-radius-sm}"
-  },
-  "border-radius-base": {
-    "$type": "dimension",
-    "$value": "{border-radius-default}"
-  },
-  "border-radius-md": {
-    "$type": "dimension",
-    "$value": "{border-radius-md}"
-  },
-  "border-radius-lg": {
-    "$type": "dimension",
-    "$value": "{border-radius-lg}"
-  },
-  "border-radius-circle": {
-    "$type": "dimension",
-    "$value": "{border-radius-circle}"
-  },
-  "border-width-none": {
-    "$type": "dimension",
-    "$value": "{border-width-none}"
-  },
-  "border-width-thin": {
-    "$type": "dimension",
-    "$value": "{border-width-thin}"
-  },
-  "border-width-default": {
-    "$type": "dimension",
-    "$value": "{border-width-default}"
-  },
-  "border-width-thick": {
-    "$type": "dimension",
-    "$value": "{border-width-thick}"
-  },
   "color-icon-neutral-tertiary": {
     "$type": "color",
     "$value": "{color-neutral-500}"

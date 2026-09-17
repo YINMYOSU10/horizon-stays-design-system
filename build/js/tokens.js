@@ -3,16 +3,16 @@
  */
 
 export const ColorTeal50 = "#effcfb";
-export const ColorTeal100 = "#d3f7f6";
-export const ColorTeal200 = "#a6efee";
-export const ColorTeal300 = "#6be2e1";
-export const ColorTeal400 = "#29cbca";
-export const ColorTeal500 = "#06b1b0";
-export const ColorTeal600 = "#049392";
-export const ColorTeal700 = "#037271";
-export const ColorTeal800 = "#04595a";
-export const ColorTeal900 = "#063f42";
-export const ColorTeal1000 = "#032a2c";
+export const ColorTeal100 = "#e6f7f7";
+export const ColorTeal200 = "#c3ecec";
+export const ColorTeal300 = "#94dddd";
+export const ColorTeal400 = "#62cecd";
+export const ColorTeal500 = "#33bfbe";
+export const ColorTeal600 = "#06b1b0";
+export const ColorTeal700 = "#059696";
+export const ColorTeal800 = "#047e7d";
+export const ColorTeal900 = "#036564";
+export const ColorTeal1000 = "#03504f";
 export const ColorBlue50 = "#eff6ff";
 export const ColorBlue100 = "#dbeafe";
 export const ColorBlue200 = "#bfdbfe";
@@ -24,17 +24,17 @@ export const ColorBlue700 = "#1d4ed8";
 export const ColorBlue800 = "#1e40af";
 export const ColorBlue900 = "#1e3a8a";
 export const ColorBlue1000 = "#172554";
-export const ColorGreen50 = "#ecfdf3";
-export const ColorGreen100 = "#d1fadf";
-export const ColorGreen200 = "#a6f4c5";
-export const ColorGreen300 = "#6ce9a6";
-export const ColorGreen400 = "#32d583";
-export const ColorGreen500 = "#12b76a";
-export const ColorGreen600 = "#039855";
-export const ColorGreen700 = "#027a48";
-export const ColorGreen800 = "#05603a";
-export const ColorGreen900 = "#054f31";
-export const ColorGreen1000 = "#032d1c";
+export const ColorGreen50 = "#ecfdf5";
+export const ColorGreen100 = "#d0fae5";
+export const ColorGreen200 = "#a4f4cf";
+export const ColorGreen300 = "#5ee9b5";
+export const ColorGreen400 = "#00d492";
+export const ColorGreen500 = "#00bc7d";
+export const ColorGreen600 = "#009966";
+export const ColorGreen700 = "#007a55";
+export const ColorGreen800 = "#006045";
+export const ColorGreen900 = "#004f3b";
+export const ColorGreen1000 = "#002c22";
 export const ColorYellow50 = "#fffaeb";
 export const ColorYellow100 = "#fef0c7";
 export const ColorYellow200 = "#fedf89";
@@ -57,17 +57,17 @@ export const ColorOrange700 = "#c4320a";
 export const ColorOrange800 = "#9c2a10";
 export const ColorOrange900 = "#7e2410";
 export const ColorOrange1000 = "#4e1508";
-export const ColorRed50 = "#fef3f2";
-export const ColorRed100 = "#fee4e2";
-export const ColorRed200 = "#fecdca";
-export const ColorRed300 = "#fda29b";
-export const ColorRed400 = "#f97066";
-export const ColorRed500 = "#f04438";
-export const ColorRed600 = "#d92d20";
-export const ColorRed700 = "#b42318";
-export const ColorRed800 = "#912018";
-export const ColorRed900 = "#7a271a";
-export const ColorRed1000 = "#4e0f0a";
+export const ColorRed50 = "#fef0f2";
+export const ColorRed100 = "#ffe4e6";
+export const ColorRed200 = "#ffccd3";
+export const ColorRed300 = "#ffa1ad";
+export const ColorRed400 = "#ff637e";
+export const ColorRed500 = "#ff2056";
+export const ColorRed600 = "#ec003f";
+export const ColorRed700 = "#c70036";
+export const ColorRed800 = "#a50036";
+export const ColorRed900 = "#8b0836";
+export const ColorRed1000 = "#4d0218";
 export const ColorNeutral50 = "#f7f9f9";
 export const ColorNeutral100 = "#edf1f1";
 export const ColorNeutral200 = "#dce3e3";
@@ -103,12 +103,14 @@ export const FontSizeMd = "16px";
 export const FontSizeLg = "22px";
 export const FontSizeXl = "24px";
 export const FontSize2xl = "32px";
-export const LineHeightXs = "16px";
-export const LineHeightSm = "18px";
+export const LineHeightXs = "12px";
+export const LineHeightAm = "16px";
+export const LineHeightMd = "18px";
 export const LineHeightBase = "24px";
 export const LineHeightLg = "32px";
 export const LineHeightXl = "40px";
 export const LineHeight2xl = "48px";
+export const LineHeightAuto = "0px";
 export const SpacingNone = "0px";
 export const SpacingBase = "4px";
 export const SpacingXs = "8px";
@@ -133,60 +135,99 @@ export const BorderWidthNone = "0px";
 export const BorderWidthThin = "0.5px";
 export const BorderWidthDefault = "1px";
 export const BorderWidthThick = "2px";
+export const ElevationLevel1KeyColor = "#0e15160f";
+export const ElevationLevel1KeyOffsetY = "1px";
+export const ElevationLevel1KeyBlur = "2px";
+export const ElevationLevel1KeySpread = "0px";
+export const ElevationLevel1AmbientColor = "#0e15160a";
+export const ElevationLevel1AmbientOffsetY = "1px";
+export const ElevationLevel1AmbientBlur = "3px";
+export const ElevationLevel1AmbientSpread = "0px";
+export const ElevationLevel2KeyColor = "#0e151614";
+export const ElevationLevel2KeyOffsetY = "4px";
+export const ElevationLevel2KeyBlur = "8px";
+export const ElevationLevel2KeySpread = "-2px";
+export const ElevationLevel2AmbientColor = "#0e15160a";
+export const ElevationLevel2AmbientOffsetY = "2px";
+export const ElevationLevel2AmbientBlur = "4px";
+export const ElevationLevel2AmbientSpread = "-2px";
+export const ElevationLevel3KeyColor = "#0e15161a";
+export const ElevationLevel3KeyOffsetY = "12px";
+export const ElevationLevel3KeyBlur = "24px";
+export const ElevationLevel3KeySpread = "-4px";
+export const ElevationLevel3AmbientColor = "#0e15160f";
+export const ElevationLevel3AmbientOffsetY = "4px";
+export const ElevationLevel3AmbientBlur = "8px";
+export const ElevationLevel3AmbientSpread = "-4px";
+export const FontSizeLogo = "18px"; // Wordmark only. Outside the UI type scale — do not use for body or headings.
 export const ColorBgPage = "#ffffff";
 export const ColorBgSurfacePrimary = "#ffffff";
 export const ColorBgSurfaceSecondary = "#f7f9f9";
 export const ColorBgSurfaceTertiary = "#edf1f1";
-export const ColorBgOverlay = "#0e151666";
+export const ColorBgOverlay = "#0e15160a";
 export const ColorBgDisabled = "#dce3e3";
-export const ColorBgBrandExpressive = "#06b1b0";
-export const ColorBgPrimaryDefault = "#037271";
-export const ColorBgPrimaryDefaultHovered = "#04595a";
-export const ColorBgPrimaryDefaultPressed = "#063f42";
-export const ColorBgPrimaryDefaultFocused = "#037271";
+export const ColorBgBrandExpressive = "#33bfbe";
+export const ColorBgPrimaryDefault = "#33bfbe";
+export const ColorBgPrimaryDefaultHovered = "#06b1b0";
+export const ColorBgPrimaryDefaultPressed = "#059696";
+export const ColorBgPrimaryDefaultFocused = "#059696";
 export const ColorBgPrimaryDefaultDisabled = "#dce3e3";
 export const ColorBgPrimaryLight = "#effcfb";
-export const ColorBgPrimaryLightHovered = "#d3f7f6";
-export const ColorBgPrimaryLightPressed = "#a6efee";
-export const ColorBgPrimaryLightSelected = "#d3f7f6";
+export const ColorBgPrimaryDark = "#036564";
+export const ColorBgPrimaryLightHovered = "#e6f7f7";
+export const ColorBgPrimaryLightPressed = "#c3ecec";
+export const ColorBgPrimaryLightSelected = "#e6f7f7";
+export const ColorBgNeutralDefault = "#212a2b";
+export const ColorBgNeutralDefaultHovered = "#333e3f";
+export const ColorBgNeutralDefaultPressed = "#465354";
+export const ColorBgNeutralDefaultFocused = "#333e3f";
+export const ColorBgNeutralDefaultDisabled = "#dce3e3";
+export const ColorBgNeutralLight = "#f7f9f9";
+export const ColorBgNeutralDark = "#0e1516";
+export const ColorBgNeutralLightHovered = "#edf1f1";
+export const ColorBgNeutralLightPressed = "#dce3e3";
+export const ColorBgNeutralLightSelected = "#f7f9f9";
 export const ColorBgInfoDefault = "#1d4ed8";
 export const ColorBgInfoDefaultHovered = "#1e40af";
 export const ColorBgInfoDefaultPressed = "#1e3a8a";
 export const ColorBgInfoDefaultFocused = "#1d4ed8";
 export const ColorBgInfoDefaultDisabled = "#dce3e3";
 export const ColorBgInfoLight = "#eff6ff";
+export const ColorBgInfoDark = "#1e3a8a";
 export const ColorBgInfoLightHovered = "#dbeafe";
 export const ColorBgInfoLightPressed = "#bfdbfe";
 export const ColorBgInfoLightSelected = "#dbeafe";
-export const ColorBgPositiveDefault = "#027a48";
-export const ColorBgPositiveDefaultHovered = "#05603a";
-export const ColorBgPositiveDefaultPressed = "#054f31";
-export const ColorBgPositiveDefaultFocused = "#027a48";
+export const ColorBgPositiveDefault = "#007a55";
+export const ColorBgPositiveDefaultHovered = "#006045";
+export const ColorBgPositiveDefaultPressed = "#004f3b";
+export const ColorBgPositiveDefaultFocused = "#007a55";
 export const ColorBgPositiveDefaultDisabled = "#dce3e3";
-export const ColorBgPositiveLight = "#ecfdf3";
-export const ColorBgPositiveLightHovered = "#d1fadf";
-export const ColorBgPositiveLightPressed = "#a6f4c5";
-export const ColorBgPositiveLightSelected = "#d1fadf";
-export const ColorBgWarningDefault = "#b54708";
-export const ColorBgWarningDefaultHovered = "#93370d";
+export const ColorBgPositiveLight = "#ecfdf5";
+export const ColorBgPositiveDark = "#006045";
+export const ColorBgPositiveLightHovered = "#d0fae5";
+export const ColorBgPositiveLightPressed = "#a4f4cf";
+export const ColorBgPositiveLightSelected = "#d0fae5";
+export const ColorBgWarningDefault = "#f79009";
+export const ColorBgWarningDefaultHovered = "#dc6803";
 export const ColorBgWarningDefaultPressed = "#7a2e0e";
 export const ColorBgWarningDefaultFocused = "#b54708";
 export const ColorBgWarningDefaultDisabled = "#dce3e3";
 export const ColorBgWarningLight = "#fffaeb";
+export const ColorBgWarningDark = "#b54708";
 export const ColorBgWarningLightHovered = "#fef0c7";
 export const ColorBgWarningLightPressed = "#fedf89";
 export const ColorBgWarningLightSelected = "#fef0c7";
-export const ColorBgNegativeDefault = "#b42318";
-export const ColorBgNegativeDefaultHovered = "#912018";
-export const ColorBgNegativeDefaultPressed = "#7a271a";
-export const ColorBgNegativeDefaultFocused = "#b42318";
+export const ColorBgNegativeDefault = "#c70036";
+export const ColorBgNegativeDefaultHovered = "#a50036";
+export const ColorBgNegativeDefaultPressed = "#8b0836";
+export const ColorBgNegativeDefaultFocused = "#c70036";
 export const ColorBgNegativeDefaultDisabled = "#dce3e3";
-export const ColorBgNegativeLight = "#fef3f2";
-export const ColorBgNegativeLightHovered = "#fee4e2";
-export const ColorBgNegativeLightPressed = "#fecdca";
-export const ColorBgNegativeLightSelected = "#fee4e2";
-export const ColorBgUpdateDefault = "#c4320a";
-export const ColorBgUpdateDefaultHovered = "#9c2a10";
+export const ColorBgNegativeLight = "#fef0f2";
+export const ColorBgNegativeLightHovered = "#ffe4e6";
+export const ColorBgNegativeLightPressed = "#ffccd3";
+export const ColorBgNegativeLightSelected = "#ffe4e6";
+export const ColorBgUpdateDefault = "#fb6514";
+export const ColorBgUpdateDefaultHovered = "#ec4a0a";
 export const ColorBgUpdateDefaultPressed = "#7e2410";
 export const ColorBgUpdateDefaultFocused = "#c4320a";
 export const ColorBgUpdateDefaultDisabled = "#dce3e3";
@@ -196,75 +237,88 @@ export const ColorBgUpdateLightPressed = "#fddcab";
 export const ColorBgUpdateLightSelected = "#ffead5";
 export const ColorTextNeutralPrimary = "#212a2b";
 export const ColorTextNeutralSecondary = "#465354";
-export const ColorTextNeutralTertiary = "#5c6b6c";
+export const ColorTextNeutralTertiary = "#778788";
 export const ColorTextNeutralPlaceholder = "#778788";
 export const ColorTextNeutralDisabled = "#9ba9aa";
 export const ColorTextNeutralInverse = "#ffffff";
-export const ColorTextPrimaryDefault = "#037271";
+export const ColorTextPrimaryDefault = "#059696";
 export const ColorTextPrimaryForeground = "#ffffff";
-export const ColorTextPrimaryOnLight = "#063f42";
+export const ColorTextPrimaryOnLight = "#036564";
 export const ColorTextInfoDefault = "#1d4ed8";
 export const ColorTextInfoForeground = "#ffffff";
 export const ColorTextInfoOnLight = "#1e3a8a";
-export const ColorTextPositiveDefault = "#027a48";
+export const ColorTextPositiveDefault = "#007a55";
 export const ColorTextPositiveForeground = "#ffffff";
-export const ColorTextPositiveOnLight = "#054f31";
-export const ColorTextWarningDefault = "#b54708";
+export const ColorTextPositiveOnLight = "#004f3b";
+export const ColorTextWarningDefault = "#f79009";
 export const ColorTextWarningForeground = "#ffffff";
-export const ColorTextWarningOnLight = "#7a2e0e";
-export const ColorTextNegativeDefault = "#b42318";
+export const ColorTextWarningOnLight = "#dc6803";
+export const ColorTextNegativeDefault = "#ff2056";
 export const ColorTextNegativeForeground = "#ffffff";
-export const ColorTextNegativeOnLight = "#7a271a";
-export const ColorTextUpdateDefault = "#c4320a";
+export const ColorTextNegativeOnLight = "#c70036";
+export const ColorTextUpdateDefault = "#fb6514";
 export const ColorTextUpdateForeground = "#ffffff";
 export const ColorTextUpdateOnLight = "#7e2410";
-export const ColorTextLinkDefault = "#037271";
-export const ColorTextLinkHovered = "#04595a";
-export const ColorTextLinkPressed = "#063f42";
-export const ColorTextLinkVisited = "#063f42";
+export const ColorTextLinkDefault = "#059696";
+export const ColorTextLinkHovered = "#047e7d";
+export const ColorTextLinkPressed = "#036564";
+export const ColorTextLinkVisited = "#036564";
 export const ColorIconNeutralPrimary = "#333e3f";
 export const ColorIconNeutralSecondary = "#5c6b6c";
 export const ColorIconNeutralDisabled = "#9ba9aa";
 export const ColorIconNeutralInverse = "#ffffff";
-export const ColorIconPrimaryDefault = "#049392";
+export const ColorIconPrimaryDefault = "#06b1b0";
 export const ColorIconPrimaryForeground = "#ffffff";
-export const ColorIconPrimaryOnLight = "#04595a";
+export const ColorIconPrimaryOnLight = "#047e7d";
 export const ColorIconInfoDefault = "#2563eb";
 export const ColorIconInfoForeground = "#ffffff";
 export const ColorIconInfoOnLight = "#1e40af";
-export const ColorIconPositiveDefault = "#039855";
+export const ColorIconPositiveDefault = "#009966";
 export const ColorIconPositiveForeground = "#ffffff";
-export const ColorIconPositiveOnLight = "#05603a";
+export const ColorIconPositiveOnLight = "#006045";
 export const ColorIconWarningDefault = "#dc6803";
 export const ColorIconWarningForeground = "#ffffff";
 export const ColorIconWarningOnLight = "#93370d";
-export const ColorIconNegativeDefault = "#d92d20";
+export const ColorIconNegativeDefault = "#ec003f";
 export const ColorIconNegativeForeground = "#ffffff";
-export const ColorIconNegativeOnLight = "#912018";
+export const ColorIconNegativeOnLight = "#a50036";
 export const ColorIconUpdateDefault = "#ec4a0a";
 export const ColorIconUpdateForeground = "#ffffff";
 export const ColorIconUpdateOnLight = "#9c2a10";
 export const ColorBorderNeutralSubtle = "#edf1f1";
 export const ColorBorderNeutralDefault = "#dce3e3";
-export const ColorBorderNeutralStrong = "#c2cdcd";
+export const ColorBorderNeutralStrong = "#465354";
 export const ColorBorderNeutralDisabled = "#dce3e3";
-export const ColorBorderFocused = "#06b1b0";
+export const ColorBorderNeutralLight = "#c2cdcd";
+export const ColorBorderNeutralHovered = "#5c6b6c";
+export const ColorBorderNeutralPressed = "#465354";
+export const ColorBorderNeutralFocused = "#465354";
+export const ColorBorderFocused = "#33bfbe";
 export const ColorBorderFocusRing = "#06b1b033";
-export const ColorBorderPrimaryDefault = "#06b1b0";
-export const ColorBorderPrimaryLight = "#a6efee";
-export const ColorBorderPrimaryStrong = "#037271";
+export const ColorBorderPrimaryDefault = "#33bfbe";
+export const Default = "#33bfbe";
+export const ColorBorderPrimaryLight = "#c3ecec";
+export const Light = "#c3ecec";
+export const Strong = "#059696";
+export const ColorBorderPrimaryStrong = "#059696";
+export const Hovered = "#06b1b0";
+export const ColorBorderPrimaryHovered = "#06b1b0";
+export const ColorBorderPrimaryPressed = "#059696";
+export const Pressed = "#059696";
+export const Focused = "#059696";
+export const ColorBorderPrimaryFocused = "#059696";
 export const ColorBorderInfoDefault = "#3b82f6";
 export const ColorBorderInfoLight = "#bfdbfe";
 export const ColorBorderInfoStrong = "#1d4ed8";
-export const ColorBorderPositiveDefault = "#12b76a";
-export const ColorBorderPositiveLight = "#a6f4c5";
-export const ColorBorderPositiveStrong = "#027a48";
+export const ColorBorderPositiveDefault = "#00bc7d";
+export const ColorBorderPositiveLight = "#a4f4cf";
+export const ColorBorderPositiveStrong = "#007a55";
 export const ColorBorderWarningDefault = "#f79009";
 export const ColorBorderWarningLight = "#fedf89";
 export const ColorBorderWarningStrong = "#b54708";
-export const ColorBorderNegativeDefault = "#f04438";
-export const ColorBorderNegativeLight = "#fecdca";
-export const ColorBorderNegativeStrong = "#b42318";
+export const ColorBorderNegativeDefault = "#ff2056";
+export const ColorBorderNegativeLight = "#ffccd3";
+export const ColorBorderNegativeStrong = "#c70036";
 export const ColorBorderUpdateDefault = "#fb6514";
 export const ColorBorderUpdateLight = "#fddcab";
 export const ColorBorderUpdateStrong = "#c4320a";
@@ -291,16 +345,6 @@ export const SpacingMargin2xl = "48px";
 export const SpacingLayoutSection = "64px";
 export const SpacingLayoutPageInline = "24px";
 export const SpacingLayoutStack = "16px";
-export const BorderRadiusControl = "8px";
-export const BorderRadiusInput = "4px";
-export const BorderRadiusSurface = "12px";
-export const BorderRadiusModal = "16px";
-export const BorderRadiusPill = "9999px";
-export const BorderRadiusAvatar = "9999px";
-export const BorderWidthDivider = "0.5px";
-export const BorderWidthControl = "1px";
-export const BorderWidthFocused = "2px";
-export const BorderWidthSelected = "2px";
 export const ColorIconNeutralTertiary = "#778788";
 export const Heading1FontSize = "32px";
 export const Heading1LineHeight = "40px";
@@ -320,12 +364,17 @@ export const BodySmFontSize = "12px";
 export const BodySmLineHeight = "18px";
 export const BodySmSemiboldFontSize = "12px";
 export const BodySmSemiboldLineHeight = "18px";
+export const BadgeFontSize = "10px";
+export const BadgeLineHeight = "12px";
 export const LabelFontSize = "12px";
-export const LabelLineHeight = "16px";
+export const LabelLineHeight = "12px";
 export const HelperFontSize = "10px";
-export const HelperLineHeight = "16px";
+export const HelperLineHeight = "12px";
 export const LinkFontSize = "14px";
 export const LinkLineHeight = "24px";
+export const LogoFontSize = "18px";
+export const LogoFontWeight = 600;
+export const LogoLineHeight = "0px";
 export const HorizonSemanticTypographyHeading1 = {
   fontFamily: "Inter",
   fontWeight: "Semi Bold",
@@ -349,7 +398,7 @@ export const HorizonSemanticTypographyHeading3 = {
 }; // size + leading vary by platform mode (web / mobile / back-office)
 export const HorizonSemanticTypographyBodyLg = {
   fontFamily: "Inter",
-  fontWeight: "Regular",
+  fontWeight: "Semi Bold",
   fontSize: "16px",
   lineHeight: "24px",
   letterSpacing: { value: 0, unit: "px" },
@@ -393,14 +442,21 @@ export const HorizonSemanticTypographyLabel = {
   fontFamily: "Inter",
   fontWeight: "Medium",
   fontSize: "12px",
-  lineHeight: "16px",
+  lineHeight: "12px",
+  letterSpacing: { value: 0, unit: "px" },
+}; // size + leading vary by platform mode (web / mobile / back-office)
+export const HorizonSemanticTypographyBadge = {
+  fontFamily: "Inter",
+  fontWeight: "Medium",
+  fontSize: "10px",
+  lineHeight: "12px",
   letterSpacing: { value: 0, unit: "px" },
 }; // size + leading vary by platform mode (web / mobile / back-office)
 export const HorizonSemanticTypographyHelper = {
   fontFamily: "Inter",
   fontWeight: "Regular",
   fontSize: "10px",
-  lineHeight: "16px",
+  lineHeight: "12px",
   letterSpacing: { value: 0, unit: "px" },
 }; // size + leading vary by platform mode (web / mobile / back-office)
 export const HorizonSemanticTypographyLink = {
@@ -410,87 +466,58 @@ export const HorizonSemanticTypographyLink = {
   lineHeight: "24px",
   letterSpacing: { value: 0, unit: "px" },
 }; // size + leading vary by platform mode (web / mobile / back-office)
-export const HorizonSemanticElevationRaised = [
+export const HorizonSemanticTypographyLogo = {
+  fontFamily: "Inter",
+  fontWeight: "Semi Bold",
+  fontSize: "18px",
+  lineHeight: 0,
+  letterSpacing: { value: 0, unit: "px" },
+}; // Wordmark. 18 / auto / Semi Bold. Fixed across platforms — does not follow the web/mobile/back-office modes.
+export const HorizonElevationLevel1 = [
   {
-    color: {
-      colorSpace: "srgb",
-      components: [
-        0.054901961237192154, 0.08235294371843338, 0.08627451211214066,
-      ],
-      alpha: 0.05999999865889549,
-    },
+    color: "#0e15160f",
     offsetX: { value: 0, unit: "px" },
-    offsetY: { value: 1, unit: "px" },
-    blur: { value: 2, unit: "px" },
-    spread: { value: 0, unit: "px" },
+    offsetY: "1px",
+    blur: "2px",
+    spread: "0px",
   },
   {
-    color: {
-      colorSpace: "srgb",
-      components: [
-        0.054901961237192154, 0.08235294371843338, 0.08627451211214066,
-      ],
-      alpha: 0.03999999910593033,
-    },
+    color: "#0e15160a",
     offsetX: { value: 0, unit: "px" },
-    offsetY: { value: 1, unit: "px" },
-    blur: { value: 3, unit: "px" },
-    spread: { value: 0, unit: "px" },
+    offsetY: "1px",
+    blur: "3px",
+    spread: "0px",
   },
-]; // core level-1 — colour is neutral/1000 at low alpha
-export const HorizonSemanticElevationOverlay = [
+]; // key + ambient layers bound to horizon-core/elevation/level-1
+export const HorizonElevationLevel2 = [
   {
-    color: {
-      colorSpace: "srgb",
-      components: [
-        0.054901961237192154, 0.08235294371843338, 0.08627451211214066,
-      ],
-      alpha: 0.07999999821186066,
-    },
+    color: "#0e151614",
     offsetX: { value: 0, unit: "px" },
-    offsetY: { value: 4, unit: "px" },
-    blur: { value: 8, unit: "px" },
-    spread: { value: -2, unit: "px" },
+    offsetY: "4px",
+    blur: "8px",
+    spread: "-2px",
   },
   {
-    color: {
-      colorSpace: "srgb",
-      components: [
-        0.054901961237192154, 0.08235294371843338, 0.08627451211214066,
-      ],
-      alpha: 0.03999999910593033,
-    },
+    color: "#0e15160a",
     offsetX: { value: 0, unit: "px" },
-    offsetY: { value: 2, unit: "px" },
-    blur: { value: 4, unit: "px" },
-    spread: { value: -2, unit: "px" },
+    offsetY: "2px",
+    blur: "4px",
+    spread: "-2px",
   },
-]; // core level-2 — colour is neutral/1000 at low alpha
-export const HorizonSemanticElevationModal = [
+]; // key + ambient layers bound to horizon-core/elevation/level-2
+export const HorizonElevationLevel3 = [
   {
-    color: {
-      colorSpace: "srgb",
-      components: [
-        0.054901961237192154, 0.08235294371843338, 0.08627451211214066,
-      ],
-      alpha: 0.10000000149011612,
-    },
+    color: "#0e15161a",
     offsetX: { value: 0, unit: "px" },
-    offsetY: { value: 12, unit: "px" },
-    blur: { value: 24, unit: "px" },
-    spread: { value: -4, unit: "px" },
+    offsetY: "12px",
+    blur: "24px",
+    spread: "-4px",
   },
   {
-    color: {
-      colorSpace: "srgb",
-      components: [
-        0.054901961237192154, 0.08235294371843338, 0.08627451211214066,
-      ],
-      alpha: 0.05999999865889549,
-    },
+    color: "#0e15160f",
     offsetX: { value: 0, unit: "px" },
-    offsetY: { value: 4, unit: "px" },
-    blur: { value: 8, unit: "px" },
-    spread: { value: -4, unit: "px" },
+    offsetY: "4px",
+    blur: "8px",
+    spread: "-4px",
   },
-]; // core level-3 — colour is neutral/1000 at low alpha
+]; // key + ambient layers bound to horizon-core/elevation/level-3

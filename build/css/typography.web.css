@@ -21,10 +21,15 @@
   --body-sm-line-height: 18px;
   --body-sm-semibold-font-size: 12px;
   --body-sm-semibold-line-height: 18px;
+  --badge-font-size: 10px;
+  --badge-line-height: 12px;
   --label-font-size: 12px;
-  --label-line-height: 16px;
+  --label-line-height: 12px;
   --helper-font-size: 10px;
-  --helper-line-height: 16px;
+  --helper-line-height: 12px;
   --link-font-size: 14px;
   --link-line-height: 24px;
+  --logo-font-size: 18px;
+  --logo-font-weight: 600;
+  --logo-line-height: 0px;
 }
