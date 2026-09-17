@@ -1,3 +1,10 @@
+/* NOTE — border-radius-* and border-width-* below are CORE tokens, which
+   CLAUDE.md would normally forbid a component from touching. The 16 Sep
+   re-export deleted the semantic aliases that used to sit in front of them
+   (border-radius-control/surface/pill, border-width-control/focused), so there
+   is no semantic layer left to reference. Swap these back the moment it
+   returns. See docs/card-design-gaps.md. */
+
 /* Styling for the story stand-ins only. See slotFixtures.tsx — these duplicate
    the look of Badge / IconButton / Link because those components do not exist
    yet. Delete this file when they do. */
@@ -9,14 +16,11 @@
   height: 20px;
   padding-inline: var(--spacing-padding-sm);
   padding-block: var(--spacing-gap-xs);
-  border-radius: var(--border-radius-control);
-  /* The card's badge is Theme=Info, Type=Fill (233:3790). Figma binds it to
-     `bg-info-light` while painting `text-info-foreground` (white) on top — a
-     pale-tint background with the white text meant for the strong fill, which
-     renders unreadable. Every other theme pairs fill as default+foreground and
-     two-tone as light+on-light, so the Fill badge is bound to `bg-info-default`
-     here. See docs/card-design-gaps.md; the real fix is in Figma. */
-  background: var(--color-bg-info-default);
+  border-radius: var(--border-radius-default);
+  /* The card's badge is Theme=Info, Type=Fill (233:3790), and the design paints
+     white text on a navy ground. `bg-info-dark` is the token that carries that
+     navy; `bg-info-light` is the pale tint and cannot take white text. */
+  background: var(--color-bg-info-dark);
   color: var(--color-text-info-foreground);
   font-family: var(--font-family-sans), system-ui, sans-serif;
   font-weight: var(--font-weight-medium);
@@ -32,14 +36,14 @@
   width: 32px;
   height: 32px;
   padding: var(--spacing-padding-none);
-  border: var(--border-width-control) solid var(--color-border-neutral-default);
-  border-radius: var(--border-radius-pill);
+  border: var(--border-width-default) solid var(--color-border-neutral-default);
+  border-radius: var(--border-radius-circle);
   background: var(--color-bg-surface-primary);
   cursor: pointer;
 }
 
 .fixtureIconButton:focus-visible {
-  outline: var(--border-width-focused) solid var(--color-border-focused);
+  outline: var(--border-width-thick) solid var(--color-border-focused);
   outline-offset: 2px;
 }
 
@@ -56,6 +60,6 @@
 .fixtureLink:hover { text-decoration: underline; }
 
 .fixtureLink:focus-visible {
-  outline: var(--border-width-focused) solid var(--color-border-focused);
+  outline: var(--border-width-thick) solid var(--color-border-focused);
   outline-offset: 2px;
 }

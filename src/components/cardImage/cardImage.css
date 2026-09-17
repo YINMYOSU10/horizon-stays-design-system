@@ -1,3 +1,10 @@
+/* NOTE — border-radius-* and border-width-* below are CORE tokens, which
+   CLAUDE.md would normally forbid a component from touching. The 16 Sep
+   re-export deleted the semantic aliases that used to sit in front of them
+   (border-radius-control/surface/pill, border-width-control/focused), so there
+   is no semantic layer left to reference. Swap these back the moment it
+   returns. See docs/card-design-gaps.md. */
+
 /* CardImage — Figma 218:4235
    Owns the media frame and the *positions* of the badge and overlay action.
    It deliberately does not style those two: Badge (233:3729) and IconButton
@@ -20,7 +27,7 @@
   width: var(--cardImage-w);
   height: var(--cardImage-h);
   padding: var(--spacing-padding-sm);
-  border-radius: var(--border-radius-control);
+  border-radius: var(--border-radius-default);
 }
 
 .cardImage * { box-sizing: border-box; }
@@ -44,7 +51,7 @@
   height: 100%;
   max-width: none;
   object-fit: cover;
-  border-radius: var(--border-radius-control);
+  border-radius: var(--border-radius-default);
   pointer-events: none;
 }
 

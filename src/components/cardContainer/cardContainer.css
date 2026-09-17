@@ -1,3 +1,10 @@
+/* NOTE — border-radius-* and border-width-* below are CORE tokens, which
+   CLAUDE.md would normally forbid a component from touching. The 16 Sep
+   re-export deleted the semantic aliases that used to sit in front of them
+   (border-radius-control/surface/pill, border-width-control/focused), so there
+   is no semantic layer left to reference. Swap these back the moment it
+   returns. See docs/card-design-gaps.md. */
+
 /* CardContainer — Figma 215:4091. State: Default | Hover.
    "Use as a container to place card's subcomponents. Do not use this for other
    components." (component description in Figma) */
@@ -10,7 +17,7 @@
   position: relative;
   padding-inline: var(--spacing-padding-lg);
   padding-block: var(--spacing-padding-md);
-  border-radius: var(--border-radius-surface);
+  border-radius: var(--border-radius-md);
   background: var(--color-bg-surface-primary);
   box-shadow: none;
   transition: box-shadow 120ms ease-out;
@@ -23,7 +30,7 @@
 .cardContainer[data-state="Hover"] {
   align-items: center;
   justify-content: center;
-  box-shadow: var(--horizon-semantic-elevation-overlay);
+  box-shadow: var(--horizon-elevation-level-2);
 }
 
 @media (prefers-reduced-motion: reduce) {
