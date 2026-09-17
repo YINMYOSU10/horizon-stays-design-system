@@ -10,6 +10,7 @@ import stay from "../card/__fixtures__/stay.png";
 const meta = {
   title: "Components/CardImage",
   component: CardImage,
+  tags: ["autodocs"],
   parameters: { layout: "centered" },
   args: {
     src: stay,

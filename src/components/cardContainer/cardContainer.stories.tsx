@@ -8,6 +8,7 @@ import { CardContainer } from "./cardContainer";
 const meta = {
   title: "Components/CardContainer",
   component: CardContainer,
+  tags: ["autodocs"],
   parameters: { layout: "centered" },
   args: {
     children: <div style={{ width: 269, height: 100 }} />

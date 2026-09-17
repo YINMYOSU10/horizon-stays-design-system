@@ -21,6 +21,7 @@ const image = (
 const meta = {
   title: "Components/CardLayout",
   component: CardLayout,
+  tags: ["autodocs"],
   parameters: { layout: "centered" },
   args: { image, text: <CardText link={<LinkFixture />} /> }
 } satisfies Meta<typeof CardLayout>;

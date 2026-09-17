@@ -9,6 +9,7 @@ import { LinkFixture } from "../card/__fixtures__/slotFixtures";
 const meta = {
   title: "Components/CardText",
   component: CardText,
+  tags: ["autodocs"],
   parameters: { layout: "centered" },
   args: { link: <LinkFixture /> }
 } satisfies Meta<typeof CardText>;
